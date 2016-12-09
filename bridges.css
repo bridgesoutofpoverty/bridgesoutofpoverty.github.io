@@ -1,5 +1,8 @@
         body{
+            font-family: 'Raleway', sans-serif;
             margin: 0;
+            font-size: 1.15vw;
+            color: gray;
         }
         
         header{
@@ -30,7 +33,7 @@
         .label {
             font-family: 'Raleway', sans-serif;
             font-weight: 500;
-            font-size: 15px;
+            font-size: 1vw;
             color: white;
             vertical-align: middle;
             text-decoration: none;
@@ -54,12 +57,14 @@
         nav a{
             font-family: 'Raleway', sans-serif;
             color: #5AA2D4;
-            font-size: 15px;
+            font-size: 1vw;
             font-weight: 500;
             padding: 2vw;
             vertical-align: middle;
             text-decoration: none;
-        
+            line-height: 8vh;
+            height: 8vh;
+            display: inline-block;
         }
     
         .jumbotron {
@@ -84,7 +89,7 @@
            text-decoration: none;
             font-family: 'Raleway', sans-serif;
             color: #5AA2D4;
-            font-size: 24px;
+            font-size: 1.7vw;
             padding: 2vh;
         }
         footer {
@@ -160,20 +165,20 @@
         p {
             font-family: 'Raleway', sans-serif;
             color: gray;
-            font-size: 18px;
+            font-size: 1.15vw;
         }
         
         .contactText {
             font-family: 'Raleway', sans-serif;
             color: #298fd5;
-            font-size: 14px;
-            line-height: 18px;
+            font-size: 1.15vw;
+            line-height: 1.15vw;
             display: block;
         }
         .sectionHead {
             font-family: 'Raleway', sans-serif;
             color: #5AA2D4;
-            font-size: 18px;
+            font-size: 1.15vw;
             font-weight: 700;
             
             }
