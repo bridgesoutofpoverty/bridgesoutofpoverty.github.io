@@ -25,12 +25,25 @@
         .applImagesTron {
             width: 100%;
             height: 80vh;
+            margin-top: 14.5vh;
         }
 
         .applImagesPage {
             width: 100%;
             height: 60vh;
         }
+
+#getGoing{
+    margin-top: 14.5vh;
+}
+
+#gettingAhead{
+    margin-top: 14.5vh;
+}
+
+#stayingAhead{
+    margin-top: 14.5vh;
+}
 
 #subHeader_4step{
     font-size: 2vw;
