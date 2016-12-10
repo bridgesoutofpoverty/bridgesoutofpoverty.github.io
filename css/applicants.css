@@ -22,12 +22,39 @@
             text-align: center;
         }
 
+        .applImagesTron {
+            width: 100%;
+            height: 80vh;
+        }
+
+        .applImagesPage {
+            width: 100%;
+            height: 60vh;
+        }
+
+#subHeader_4step{
+    font-size: 2vw;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
 .skills{
     font-family:Raleway;
     color: black;
     font-size:18px;
  }
 
+#applicationNav {
+    text-align: center;
+    display: absolute;
+    margin-bottom: 3vh;
+
+}
+
+#applPageTable {
+    font-size: 1vw;
+    margin-bottom: 3vh;
+}
 
 /* ==========Slider============= 
 .slick-slider
