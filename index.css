@@ -92,9 +92,13 @@
 
 .bubhead{
     display: inline-block;
+    
+    
+}
+.head{
+    font-weight: 500;
+    font-size: 2vw;
     color: dimgray;
-    font-weight: 200;
-    font-size: 1.25vw;
 }
 
 .bubhead:hover{
