@@ -99,7 +99,8 @@
 }
  .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 120%;
-      margin-top: 20vh;
+      width: 100%;
+      margin-top: 11.5vh;
+
   
   }
