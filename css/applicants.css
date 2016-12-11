@@ -97,3 +97,9 @@
     text-decoration: none;
     cursor: pointer;
 }
+ .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 120%;
+      margin-top: 20vh;
+  
+  }
