@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="bridges.css" />
+    <link href="core.css" rel="stylesheet" type="text/css" />
+    <style>
+        form {
+            text-align: left;
+            display: block;
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }    
+        label {
+            font-family: 'Raleway', sans-serif;
+            color: #298fd5;
+            font-size: 18px;
+            font-weight: 400;
+            padding: 2vw;
+        }
+        input[type=text] {
+            width: 30vw;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #298fd5;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        input[type=checkbox] {
+            margin-left: 3vw;
+            border: 1px solid #298fd5;
+            display: inline-block;
+            }
+        ul {
+            float: left;
+            width: 50vw;
+            list-style: none;
+        }
+        
+        #explain1 {
+            display: none;
+        }
+    </style>
+</head>    
+<body>
+    <header>
+        <a href="http://index.html"><img id="logo" src="OmahaBridges_Logo.png" /></a>
+        <nav>
+            <a href="http://about.html">ABOUT</a>
+            <a href="#">APPLICANTS</a>
+            <a href="http://volunteer.html">VOLUNTEER</a>
+            <a href="#">PARTNERS</a>
+            <a href="#">CONTACT</a>   
+        </nav>  
+        <section id="box">  
+            <a href="#" class="label">DONATE</a>
+        </section>
+        
+    </header>
+    <img class="jumbotron" src="about.jpg" />
+    <div id="main">
+        
+       <p class="pageNav">VOLUNTEER WITH US</p>
+  
+      
+        <p class="sectionHead">Ready to get started? Apply to volunteer now!</p>
+        <form>
+            <label for="name">Name&nbsp;&nbsp;&nbsp;   </label><input type="text" id="name" name="name"><br />
+            <label for="name">Address</label><input type="text" id="address" name="address"><br />
+            <label for="name">Phone&nbsp;&nbsp;  </label><input type="text" id="phone" name="phone"><br />
+            <label for="name">Email&nbsp;&nbsp;&nbsp;  </label><input type="text" id="email" name="email"><br />
+            <label for="heard">How did you hear about Omaha Bridges out of Poverty?</label><br />
+               <ul>
+                    <li><input type="checkbox" name="heard" value="news"><label for="news">Newspaper, TV, Radio Ad</label></li>
+                    <li><input type="checkbox" name="heard" value="social"><label for="social">Social Media</label></li>
+                    <li><input type="checkbox" name="heard" value="employer"><label for="employer">Employer</label></li>  
+                    <li><input type="checkbox" name="heard" value="friend"><label for="friend">Friend</label></li>
+                    <li><input type="checkbox" name="heard" value="agency"><label for="agency">Social Service Agency</label></li>
+                    <li><input type="checkbox" name="heard" value="church"><label for="church">Church</label></li>
+                    <li><input type="checkbox" name="heard" id="other"><label for="other">Other</label></li>
+                    <li><input type="text" id="explain1" name="explain"></li>
+                </ul>
+    
+
+                
+           
+        </form>
+    
+    </div>
+<div id="cover"></div>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+        <script src="core.js"></script>
+        <script>
+            $("#other").click(function(e){
+                $("#explain1").toggle();
+            });
+        </script>
+    
+    
+    
+    
+</body>
+</html>
