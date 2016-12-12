@@ -28,12 +28,15 @@ ul{
     font-size: 2vw;
     text-align: center;
     margin-bottom: 2vh;
-    margin-left: 1vh;
+    
 }
 
 #applPageTable {
     font-size: 1.5vw;
     margin-bottom: 3vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    color: #006699;
 }
 
 .modal {
@@ -82,5 +85,19 @@ ul{
         height: 100%;
         background-color: white;
         z-index: 999999;
+}
+#myBtn{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75vw;
+   
+    
+}
+#myButton{
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.75vw;
+   
+
 }
 
