@@ -4,20 +4,20 @@
       margin-top: 11.5vh;
 }
 
-#applicationNav {
+#applicationNav{
     text-align: center;
     display: absolute;
     margin-bottom: 3vh;
 }
 
-p {
+p{
     font-family: 'Raleway', sans-serif;
     color: gray;
-    font-size: 1.15vw;
+    font-size: 25px;
     text-align: center;
 }
 
-ul {
+ul{
     font-family: 'Raleway', sans-serif;
     color: gray;
     font-size: 1.15vw;
@@ -28,6 +28,7 @@ ul {
     font-size: 2vw;
     text-align: center;
     margin-bottom: 2vh;
+    margin-left: 1vh;
 }
 
 #applPageTable {
@@ -57,7 +58,7 @@ ul {
 }
 
 .close:hover, .close:focus {
-    color: #000;
+    color: black;
     text-decoration: none;
     cursor: pointer;
 }
@@ -69,8 +70,8 @@ ul {
 
 .skills{
     font-family:Raleway;
-    color: black;
-    font-size:18px;
+    color: #006699;
+    font-size: 25px;
  }
 
 #cover{
@@ -82,3 +83,4 @@ ul {
         background-color: white;
         z-index: 999999;
 }
+

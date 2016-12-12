@@ -165,7 +165,9 @@
         p {
             font-family: 'Raleway', sans-serif;
             color: gray;
-            font-size: 1.15vw;
+            font-size: 1.75vw;
+            margin-left: 10vh;
+            margin-right: 10vh;
         }
         
         .contactText {
@@ -178,7 +180,7 @@
         .sectionHead {
             font-family: 'Raleway', sans-serif;
             color: #5AA2D4;
-            font-size: 1.15vw;
+            font-size: 3.15vw;
             font-weight: 700;
             
             }
