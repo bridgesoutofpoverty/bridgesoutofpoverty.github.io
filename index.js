@@ -1,4 +1,8 @@
 
     $(document).ready(function(){
-      $('#carousel').superslides();
+      $('#carousel').superslides({
+          pagination: false,
+          animation: "slide",
+          play: 5000
+      });
     });

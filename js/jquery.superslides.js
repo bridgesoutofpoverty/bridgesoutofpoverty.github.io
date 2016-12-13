@@ -543,7 +543,7 @@ Superslides.prototype = {
     if (that.options.hashchange) {
       $(window).trigger('hashchange');
     } else {
-      this.animate();
+      //this.animate();
     }
 
     if (this.options.play) {
