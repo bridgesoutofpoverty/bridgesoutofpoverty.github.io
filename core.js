@@ -19,7 +19,7 @@ $.ajax({
         $("nav a[href='"+currentPage+"']").addClass("currentPage");
         $("#mobileMenuWrapper").click(function(e){
             $("#modalCover").show();
-            $("nav").css("right", "-35vw");
+            $("nav").css("right", "-45vw");
             $("nav").animate({
                 right: "0vw"
             }, 500);
@@ -28,7 +28,7 @@ $.ajax({
         $("#modalCover").click(function(e){
             $("#modalCover").hide();
             $("nav").animate({
-                right: "-35vw"
+                right: "-45vw"
             }, 500, function(){
                 $("nav").css("right", "");
             });
