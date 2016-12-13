@@ -16,7 +16,7 @@
     text-align: center;
     font-weight: 500;
     color: #5AA2D4;
-    font-size: 3vw;
+    font-size: 6vh;
     
 }
 
@@ -26,7 +26,7 @@
 
 .overview{
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 3vh;
     margin-bottom: 4vh;
     color: dimgray;
     position: relative;
@@ -98,7 +98,7 @@
 }
 .head{
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 4vh;
     color: dimgray;
 }
 

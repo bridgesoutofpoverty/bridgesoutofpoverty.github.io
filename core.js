@@ -42,4 +42,7 @@ $.ajax({
     $("body").append(data);
 });
 
-
+$(window).resize(function(e){
+    $("nav").css("right", "");
+    $("#modalCover").hide();
+});
