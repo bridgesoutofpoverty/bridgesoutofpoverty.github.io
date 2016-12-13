@@ -17,6 +17,7 @@ $.ajax({
         var urlPieces = document.location.href.split("/");
         var currentPage = urlPieces[urlPieces.length-1];
         $("nav a[href='"+currentPage+"']").addClass("currentPage");
+        $("a.contactNav").click(scrollToElement);
         $("#mobileMenuWrapper").click(function(e){
             $("#modalCover").show();
             $("nav").css("right", "-45vw");
