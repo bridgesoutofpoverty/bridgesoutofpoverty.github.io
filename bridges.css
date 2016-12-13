@@ -188,3 +188,11 @@
             margin-left: 20vh;
             margin-right: 20vh;
         }
+        
+        ul{
+            font-family: 'Raleway', sans-serif;
+            color: gray;
+            font-size: 1.15vw;
+            text-align: left;
+            margin-left: 30%;
+        }

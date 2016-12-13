@@ -21,7 +21,8 @@ ul{
     font-family: 'Raleway', sans-serif;
     color: gray;
     font-size: 1.15vw;
-    text-align: center;
+    text-align: left;
+    margin-left: 30%;
 }
 
 #subHeader_4step{
