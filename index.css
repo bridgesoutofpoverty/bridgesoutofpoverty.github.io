@@ -162,5 +162,19 @@
         margin-left: 0;
         margin-right: 0;
     }
+    
+    #bubbleSection > div{
+        margin-bottom: 10vh;
+        flex-basis: 100%;
+    }
+
+    #bubbleSection > div:last-of-type{
+        margin-bottom: 0;
+    }
+    
+    .round, .bubhov{
+        width: 50vw;
+        height: 50vw;
+    }
 }
 
