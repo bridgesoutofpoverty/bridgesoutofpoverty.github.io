@@ -12,6 +12,42 @@
     width: 100%;
 }
 
+.slideHead{
+    position: absolute;
+    color: white;
+    text-align: center;
+    font-family: 'Raleway';
+    font-size: 10vh;
+    font-weight: 500;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%,-0);
+}
+.slideButton{
+    background-color: none;
+    border: .55vh solid white;
+    border-radius: 10%;
+    height: 7vh;
+    width: 22vh;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,0);   
+}
+.slideButton:hover{
+    background-color: white;
+}
+
+.slideLink{
+    color: white;
+    text-align: center;
+    line-height: 7vh;
+    font-size: 2.5vh;
+}
+.slideLink:hover{
+    color: #5aa2da;
+}
+
 #mainHeadline{
     text-align: center;
     font-weight: 500;
