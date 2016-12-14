@@ -22,7 +22,6 @@ ul{
     color: gray;
     font-size: 1.15vw;
     text-align: left;
-    margin-left: 30%;
 }
 
 #subHeader_4step{
@@ -69,7 +68,6 @@ ul{
 
 .applImagesPage {
     width: 100%;
-    height: 60vh;
 }
 
 .skills{

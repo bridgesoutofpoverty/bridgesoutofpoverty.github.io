@@ -6,6 +6,27 @@
         margin-left: 4vw;
     }
     
+    iframe{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 80%;
+    }
+    
+    .sectionHead{
+        text-align: center;
+    }
+    
+    #emailCover{
+        background-color: white;
+        height: 20px;
+        width: 80%;
+        position: relative;
+        top: 20px;
+        z-index: 1;
+        left: 50%;
+        transform: translate(-50%);
+    }
 </style>
 
 <head>
@@ -16,14 +37,13 @@
 
 </head>  
 <body>
-    
+    <br/><br/><br/><br/>
     <p class="sectionHead">Check out our upcoming events!</p><br/>
-
-      <iframe src="https://calendar.google.com/calendar/embed?src=omahabridgespoverty%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="10px" scrolling="no"></iframe>
-  
- 
-    
-
+    <div id="emailCover"></div>
+    <iframe src="https://calendar.google.com/calendar/embed?src=omahabridgespoverty%40gmail.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="10px" scrolling="no"></iframe>
+    <br/><br/><br/><br/>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="core.js"></script>
 </body>    
     
 

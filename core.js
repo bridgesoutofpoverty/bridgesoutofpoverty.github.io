@@ -34,6 +34,10 @@ $.ajax({
                 $("nav").css("right", "");
             });
         });
+        
+        $(".donate").click(function(e){
+            $("#paypalForm").submit();
+        });
     }, 1);
 });
 

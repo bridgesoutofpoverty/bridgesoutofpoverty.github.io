@@ -75,6 +75,7 @@
             line-height: 15vh;
             height: 15vh;
             display: inline-block;
+            vertical-align: top;
         }
 
         nav a.donate{
@@ -110,7 +111,6 @@
             text-align: center;
             display: absolute;
             margin-bottom: 10vh;
-            
         }
         
         .pageNav {
@@ -120,6 +120,7 @@
             font-size: 1.7vw;
             padding: 2vh;
         }
+
         footer {
             height: 40vh;
             width: 100%;
@@ -228,7 +229,12 @@
             color: gray;
             font-size: 1.15vw;
             text-align: left;
-            margin-left: 30%;
+            margin: 0 auto;
+            display: inline-block;
+        }
+
+        #paypalForm{
+            display: none;
         }
 
 
@@ -263,6 +269,8 @@
                 display: block;
                 border-bottom: 1px solid #1A5FA2;
                 font-size: 3vh;
+                line-height: 14.2vh;
+                height: 14.2vh;
             }
             
             nav a.donate{
@@ -307,6 +315,21 @@
             p{
                 margin-left: 0;
                 margin-right: 0;
+            }
+            
+            .embededForm iframe{
+                width: 100% !important;
+            }
+            
+            .sectionText {
+                margin-left: 2vh;
+                margin-right: 2vh;
+            }
+            
+            .pageNav {
+                font-size: 4.5vw;
+                line-height: 2vw;
+                display: block;
             }
         }
 
