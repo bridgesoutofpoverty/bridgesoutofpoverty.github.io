@@ -1,6 +1,7 @@
 function scrollToElement(e){
     var idToScroll = $(e.target).attr("href");
     if(idToScroll != "" && idToScroll != "#"){
+        $("#modalCover:visible").trigger("click");
         $('html, body').animate({
             scrollTop: $(idToScroll).offset().top - $("header").height()
         }, 500);                   
