@@ -4,7 +4,7 @@ function scrollToElement(e){
         $("#modalCover:visible").trigger("click");
         $('html, body').animate({
             scrollTop: $(idToScroll).offset().top - $("header").height()
-        }, 500);                   
+        }, 500);
     }
     return false;
 }
