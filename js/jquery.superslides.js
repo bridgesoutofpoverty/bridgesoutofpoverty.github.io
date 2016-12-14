@@ -531,6 +531,7 @@ Superslides.prototype = {
   },
 
   stop: function() {
+    this.wasStopped = true;
     clearInterval(this.play_id);
     delete this.play_id;
 
@@ -543,7 +544,9 @@ Superslides.prototype = {
     if (that.options.hashchange) {
       $(window).trigger('hashchange');
     } else {
-      //this.animate();
+        if(!(this.wasStopped)){
+            this.animate();
+        }
     }
 
     if (this.options.play) {
