@@ -93,20 +93,20 @@
 }
 
 #bub1{
-    background-image: url(images/1.jpg);
+    background-image: url(images/manapplicant.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 #bub2{
-    background-image: url(images/2.jpg);
+    background-image: url(images/1.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 #bub3{
-    background-image: url(images/3.jpg);
+    background-image: url(images/womenpartners.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
