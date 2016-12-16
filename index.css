@@ -8,24 +8,26 @@
     z-index: 999999;
 }
 
-.caroImg{
+.slid{
     width: 100%;
+    
 }
-
-.slideHead{
-    position: absolute;
-    color: white;
+.callBox{
+    background-color: rgba(26, 95, 162, .8);
+    margin-top: 35vh;
     text-align: center;
+    margin-left: 50%;
+    transform: translate(-50%, 0);
+}
+.callAction{
+    color: white;
     font-family: 'Raleway';
-    font-size: 10vh;
     font-weight: 500;
-    top: 18%;
-    left: 50%;
-    transform: translate(-50%,-0);
+    
 }
 .slideButton{
-    background-color: none;
-    border: .55vh solid white;
+    background-color: rgba(90, 162, 212, .8);
+    border: .45vh solid white;
     border-radius: 10%;
     height: 7vh;
     width: 22vh;
@@ -77,7 +79,7 @@
 #bubbleSection{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /*flexbox won't wrap, ask why?*/
+    flex-wrap: wrap;
     text-align: center;
     margin-bottom: 10vh;
     
@@ -93,20 +95,23 @@
 }
 
 #bub1{
-    background-image: url(images/manapplicant.jpg);
+    background-image: url(images/1.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 
 #bub2{
+
     background-image: url(images/1.jpg);
+    background-image: url(images/Vbub.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 #bub3{
-    background-image: url(images/womenpartners.jpg);
+
+    background-image: url(images/Pbub.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -151,7 +156,7 @@
 #bubtitles{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /*flexbox won't wrap, ask why?*/
+    flex-wrap: wrap; 
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 4vh
