@@ -86,7 +86,7 @@
 #bubbleSection{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; /*flexbox won't wrap, ask why?*/
+    flex-wrap: wrap; 
     text-align: center;
     margin-bottom: 10vh;
     
@@ -109,13 +109,13 @@
 }
 
 #bub2{
-    background-image: url(images/2.jpg);
+    background-image: url(images/Vbub.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 #bub3{
-    background-image: url(images/3.jpg);
+    background-image: url(images/Pbub.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
