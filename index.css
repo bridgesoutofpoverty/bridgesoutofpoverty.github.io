@@ -10,8 +10,8 @@
 
 .slid{
     width: 100%;
-    
 }
+
 .callBox{
     background-color: rgba(26, 95, 162, .8);
     margin-top: 35vh;
@@ -21,9 +21,8 @@
 }
 .callAction{
     color: white;
-    font-family: 'Raleway';
+    font-family: "Raleway";
     font-weight: 500;
-    
 }
 .slideButton{
     background-color: rgba(90, 162, 212, .8);
@@ -48,6 +47,14 @@
 }
 .slideLink:hover{
     color: #5aa2da;
+}
+
+#curve{
+    position: absolute;
+    bottom: .0px;
+    z-index: 999;
+    width: 100%;
+    
 }
 
 #mainHeadline{
@@ -79,7 +86,7 @@
 #bubbleSection{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*flexbox won't wrap, ask why?*/
     text-align: center;
     margin-bottom: 10vh;
     
@@ -102,16 +109,13 @@
 }
 
 #bub2{
-
-    background-image: url(images/1.jpg);
-    background-image: url(images/Vbub.jpg);
+    background-image: url(images/2.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
 }
 #bub3{
-
-    background-image: url(images/Pbub.jpg);
+    background-image: url(images/3.jpg);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -156,7 +160,7 @@
 #bubtitles{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap; 
+    flex-wrap: wrap; /*flexbox won't wrap, ask why?*/
     text-align: center;
     margin-top: 2vh;
     margin-bottom: 4vh
