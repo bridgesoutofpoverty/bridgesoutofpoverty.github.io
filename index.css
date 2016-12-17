@@ -13,12 +13,13 @@
 }
 
 .callBox{
-    background-color: rgba(26, 95, 162, .8);
-    margin-top: 35vh;
+    background-color: rgba(26, 95, 162, .3);
+    margin-top: 45vh;
     text-align: center;
     margin-left: 50%;
     transform: translate(-50%, 0);
-}
+    width: 45vh;
+    }
 .callAction{
     color: white;
     font-family: "Raleway";
