@@ -9,6 +9,16 @@ function scrollToElement(e){
     return false;
 }
 
+function scrollToId(id){
+    if(id != "" && id != "#"){
+        $("#modalCover:visible").trigger("click");
+        $('html, body').animate({
+            scrollTop: $("#"+id).offset().top - $("header").height()
+        }, 500);
+    }
+    return false;
+}
+
 $.ajax({
     url: "BridgesHeader.html"
 }).success(function(data){

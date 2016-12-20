@@ -108,48 +108,8 @@
                 </tr>
             </table>
             <br/><br/><br/>
-            <button id="myBtn">Apply Now</button>
-            <button id="myButton">Inquire For More Information</button>
-
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <div>
-                        <div id="applyButton">
-                            <form>
-                                <a name="form95999333" id="formAnchor95999333"></a>
-                                <script type="text/javascript" src="https://fs28.formsite.com/include/form/embedManager.js?95999333"></script>
-                                <script type="text/javascript">
-                                EmbedManager.embed({
-                                    key: "https://fs28.formsite.com/res/showFormEmbed?EParam=m%2FOmK8apOTAalDEx%2BX8dbmrYe2Y6sJfY&95999333",
-                                    width: "100%",
-                                    mobileResponsive: true
-                                });
-                        </script>
-
-                            </form>
-                        </div>              
-                        <div id="inquireNow">
-                            <form>
-                                <a name="form42220747" id="formAnchor42220747"></a>
-                                <script type="text/javascript" src="https://fs28.formsite.com/include/form/embedManager.js?42220747"></script>
-                                <script type="text/javascript">
-                                    EmbedManager.embed({
-                                    key: "https://fs28.formsite.com/res/showFormEmbed?EParam=m%2FOmK8apOTAalDEx%2BX8dbkHp%2BOxx3Si2&42220747",
-                                    width: "100%",
-                                    mobileResponsive: true
-                                    });
-                                    
-                                    $("#myModal iframe").each(function(e){
-                                        $(this).attr("scrolling", "auto").attr("src", $(this).attr("src")+"&fix");
-                                    });
-                                </script>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <button id="myBtn" href="#applyButton">Apply Now</button>
+            <button id="myButton" href="#inquireNow">Inquire For More Information</button>
             <br/><br/>
             <div>
             <br/><br/>
@@ -184,7 +144,45 @@
                 <li>Leadership development</li>
             </ul>
         </div>    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" href="#myBtn">&times;</span>
+                <div>
+                    <div id="applyButton">
+                        <form>
+                            <a name="form95999333" id="formAnchor95999333"></a>
+                            <script type="text/javascript" src="https://fs28.formsite.com/include/form/embedManager.js?95999333"></script>
+                            <script type="text/javascript">
+                            EmbedManager.embed({
+                                key: "https://fs28.formsite.com/res/showFormEmbed?EParam=m%2FOmK8apOTAalDEx%2BX8dbmrYe2Y6sJfY&95999333",
+                                width: "100%",
+                                mobileResponsive: true
+                            });
+                    </script>
 
+                        </form>
+                    </div>              
+                    <div id="inquireNow">
+                        <form>
+                            <a name="form42220747" id="formAnchor42220747"></a>
+                            <script type="text/javascript" src="https://fs28.formsite.com/include/form/embedManager.js?42220747"></script>
+                            <script type="text/javascript">
+                                EmbedManager.embed({
+                                    key: "https://fs28.formsite.com/res/showFormEmbed?EParam=m%2FOmK8apOTAalDEx%2BX8dbkHp%2BOxx3Si2&42220747",
+                                    width: "100%",
+                                    mobileResponsive: true
+                                });
+
+                                $("#myModal iframe").each(function(e){
+                                    $(this).attr("scrolling", "auto").attr("src", $(this).attr("src")+"&fix");
+                                });
+                            </script>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!--CONTENT END-->
         <div id="cover"></div>
         <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
@@ -203,24 +201,24 @@
                 modal.style.display = "block";
                 applyModal.style.display = "block";
                 inquireNowModal.style.display = "none";
-                body.style.overflow = "hidden";
+                scrollToId("applyButton");
             }
             button.onclick = function() {
                 modal.style.display = "block";
                 applyModal.style.display = "none";
                 inquireNowModal.style.display = "block";
-                body.style.overflow = "hidden";
+                scrollToId("inquireNow");
             }
             span.onclick = function() {
                 modal.style.display = "none";
-                body.style.overflow = "auto";
+                scrollToId("myBtn");
             }
 
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "none";
-                    body.style.overflow = "auto";
+                    scrollToId("myBtn");
                 }
             }
             
