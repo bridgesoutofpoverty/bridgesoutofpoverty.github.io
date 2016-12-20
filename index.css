@@ -57,7 +57,7 @@
 
 #curve{
     position: absolute;
-    bottom: 16px;
+    bottom: -1px;
     z-index: 999;
     width: 100%;
     
