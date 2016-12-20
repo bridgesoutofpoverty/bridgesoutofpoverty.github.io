@@ -42,10 +42,9 @@ ul{
 }
 
 .modal-content {
-    z-index: 1; /* Sit on top */
+    z-index: 999; /* Sit on top */
     box-sizing: border-box;
-    overflow: auto; /* Enable scroll if needed */
-    -webkit-overflow-scrolling: touch;
+    overflow: visible;
     background-color: white;
 }
 
