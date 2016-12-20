@@ -191,6 +191,7 @@
         <script src="js/jquery.superslides.js"></script>
         <script src="core.js"></script>
         <script>
+            var body = document.getElementsByTagName('body')[0];
             var modal = document.getElementById('myModal');
             var btn = document.getElementById("myBtn");
             var button = document.getElementById("myButton");
@@ -202,20 +203,24 @@
                 modal.style.display = "block";
                 applyModal.style.display = "block";
                 inquireNowModal.style.display = "none";
+                body.style.overflow = "hidden";
             }
             button.onclick = function() {
                 modal.style.display = "block";
                 applyModal.style.display = "none";
                 inquireNowModal.style.display = "block";
+                body.style.overflow = "hidden";
             }
             span.onclick = function() {
                 modal.style.display = "none";
+                body.style.overflow = "auto";
             }
 
             // When the user clicks anywhere outside of the modal, close it
             window.onclick = function(event) {
                 if (event.target == modal) {
                     modal.style.display = "none";
+                    body.style.overflow = "auto";
                 }
             }
             
