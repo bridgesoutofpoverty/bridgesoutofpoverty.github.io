@@ -1,3 +1,7 @@
+#paypalForm{
+    display: none;
+}
+
 #cover{
     position: fixed;
     top: 0;
