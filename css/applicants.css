@@ -97,6 +97,9 @@ ul{
         background-color: white;
         z-index: 999999;
 }
+#myModal{
+    z-index: 999;
+}
 #myBtn{
     font-weight: bold;
     font-family: 'Raleway', sans-serif;
@@ -127,4 +130,8 @@ ul{
 
 .carousel-caption h3{
     font-size: 3vh;
+}
+
+#applyButton iframe {
+    overflow: auto !important;
 }
