@@ -136,3 +136,27 @@ ul{
 #applyButton iframe {
     overflow: auto !important;
 }
+
+@media all and (max-width: 1150px){
+    #myModal{
+        z-index: 9999999;
+    }
+    
+    .modal-content {
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        box-sizing: border-box;
+        top: 0;
+        left: 0;
+        width: 100%; /* Full width */
+        height: 100vh; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        -webkit-overflow-scrolling: touch;
+        background-color: white;
+    }
+    
+    .close {
+        top: 0;
+        right: 0;
+    }
+}
