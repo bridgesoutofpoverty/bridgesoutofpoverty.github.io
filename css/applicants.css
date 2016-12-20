@@ -133,8 +133,10 @@ ul{
     font-size: 3vh;
 }
 
-#applyButton iframe {
+#myModal iframe {
     overflow: auto !important;
+    height: 70vh;
+    -webkit-overflow-scrolling: touch;
 }
 
 @media all and (max-width: 1150px){
@@ -150,7 +152,7 @@ ul{
         left: 0;
         width: 100%; /* Full width */
         height: 100vh; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
+        overflow: hidden; /* Enable scroll if needed */
         -webkit-overflow-scrolling: touch;
         background-color: white;
     }
@@ -158,5 +160,11 @@ ul{
     .close {
         top: 0;
         right: 0;
+    }
+    
+    #myModal iframe {
+        overflow: auto !important;
+        height: 100vh;
+        -webkit-overflow-scrolling: touch;
     }
 }
