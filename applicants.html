@@ -140,6 +140,10 @@
                                     width: "100%",
                                     mobileResponsive: true
                                     });
+                                    
+                                    $("#myModal iframe").each(function(e){
+                                        $(this).attr("scrolling", "auto").attr("src", $(this).attr("src")+"&fix");
+                                    });
                                 </script>
                             </form>
                         </div>

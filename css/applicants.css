@@ -54,7 +54,7 @@ ul{
     left: 5%;
     width: 90%; /* Full width */
     height: 70vh; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+    overflow: hidden;
     background-color: white;
 }
 
@@ -132,6 +132,7 @@ ul{
     font-size: 3vh;
 }
 
-#applyButton iframe {
+#myModal iframe {
+    height: 70vh;
     overflow: auto !important;
 }
