@@ -265,7 +265,9 @@
                 text-align: right;
                 z-index: 999999;
             }
-            
+            #logo{
+                    margin-left: 1vw;
+                }
             nav a{
                 display: block;
                 border-bottom: 1px solid #1A5FA2;
