@@ -248,7 +248,7 @@
             }
         }
 
-        @media all and (max-width: 1150px){
+        @media all and (max-width: 1150px) and (min-width: 1px){
             nav{
                 box-sizing: border-box;
                 height: 100vh;
