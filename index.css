@@ -176,7 +176,7 @@
     margin-bottom: 4vh
 }
 
-@media all and (max-width: 1150px){
+@media all and (max-width: 1150px) and (min-width: 1px){
     .welcome{
         margin-left: 0;
         margin-right: 0;

@@ -242,7 +242,7 @@
 
         /*HEADER MOBILE CSS START*/
 
-        @media all and (max-width: 1300px){
+        @media all and (max-width: 1300px) and (min-width: 1px){
             #logo{
                 margin-left: 1vw;
             }

@@ -207,12 +207,14 @@
                 applyModal.style.display = "block";
                 inquireNowModal.style.display = "none";
                 scrollToId("applyButton");
+                $("#applyButton iframe").height(1500);
             }
             button.onclick = function() {
                 modal.style.display = "block";
                 applyModal.style.display = "none";
                 inquireNowModal.style.display = "block";
                 scrollToId("inquireNow");
+                $("#inquireNow iframe").height(550);
             }
             span.onclick = function() {
                 modal.style.display = "none";
